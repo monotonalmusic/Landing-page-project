@@ -30,16 +30,12 @@ ul {
     align-items: center;
     max-height: 72px;
     height: 72px;
-    /* margin-left: 150px; */
-    /* margin-right: 150px; */
 }
 
 .header-logo {
     color: white;
     font-size: 32px;
     font-weight: 900;
-    /* overflow: hidden; */
-    /* min-width: fit-content; */
     min-width: auto;
 }
 
@@ -47,11 +43,12 @@ ul {
     display: flex;
     flex-flow: column wrap;
     background: #1F2937;
-    padding: 0 100px;
+    padding: 0 150px;
     align-items: flex-start;
-    justify-content: center;
+    justify-content: space-around;
     max-height: 150px;
     height: 150px;
+    
 }
 
 .block-one-header {
@@ -79,7 +76,7 @@ button {
     color: white;
     border-radius: 12px;
     outline: none;
-    border: none;
+    border: 2px solid white;
     padding: 5px;
 
 }
@@ -99,44 +96,85 @@ button {
 }
 
 .box {
-    /* height: 50px; */
-    /* width: 50px; */
     border: solid 3px blue;
     border-radius: 15px;
     padding: 15px;
     margin: 0;
-    height: 175px;
-    width: 175px;
+    height: 150px;
+    width: 150px;
 }
 
 .block-three {
     display: flex;
-    /* flex-direction: column; */
     flex-wrap: wrap;
-    /* justify-content: center; */
-    /* align-items: center; */
     padding: 15px;
     margin-left: 50px;
     margin-right: 50px;
-    /* align-content: space-around; */
-}
-
-.block-three {}
-
-.block-three {
-    /* align-content: center; */
-    /* justify-content: space-between; */
     justify-content: center;
 }
 
-.block-three {}
 
 .box-and-caption {
     display: flex;
     flex-flow: column;
     flex: 1;
-    /* justify-content: center; */
     align-items: center;
     margin: 15px;
     margin-bottom: 40px;
+}
+
+.row {
+    display: flex;
+
+}
+
+.block-four {
+    display: flex;
+    flex-direction: column;
+    background-color: lightgrey;
+    height: 300px;
+    color: black;
+    align-items: center;
+    justify-content: center;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.quoter {
+    font-weight: 700;
+}
+
+.block-five {
+    display: flex;
+    justify-content: center;
+    margin: 100px;
+}
+
+.blue-block {
+    display: flex;
+    flex-flow: row ;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882f6;
+    border-radius: 15px;
+    color: white;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin: auto;
+    border: 10px;
+    width: 800px;
+    height: 100px;  
+}
+
+.footer {
+    display: flex;
+    flex-flow: column;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: #1F2937;
+    height: 50px;
+    min-height: 50px;
+    padding: 0 150px;
 }
