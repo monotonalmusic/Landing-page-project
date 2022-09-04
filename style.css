@@ -7,7 +7,7 @@ body {
 
 a {
     text-decoration: none;
-    color:grey;
+    color: whitesmoke;
 
 }
 
@@ -34,7 +34,7 @@ ul {
 }
 
 .header-logo {
-    color: white;
+    color: whitesmoke;
     font-size: 32px;
     font-weight: 900;
     min-width: auto;
@@ -57,7 +57,7 @@ ul {
 }
 
 .block-one-header {
-    color: white;
+    color: whitesmoke;
     font-size: 24px;
 }
 
@@ -76,7 +76,7 @@ button {
     color: white;
     border-radius: 12px;
     outline: none;
-    border: 2px solid white;
+    border: 2px solid whitesmoke;
     padding: 5px;
     width: 70px;
 
@@ -97,7 +97,7 @@ button {
 }
 
 .box {
-    border: solid 3px blue;
+    border: solid 3px green;
     border-radius: 15px;
     padding: 15px;
     margin: 0;
@@ -157,9 +157,9 @@ button {
     flex-flow: row ;
     justify-content: space-between;
     align-items: center;
-    background-color: #3882f6;
+    background-color: green;
     border-radius: 15px;
-    color: white;
+    color: whitesmoke;
     padding-left: 100px;
     padding-right: 100px;
     margin: auto;
@@ -174,7 +174,7 @@ button {
     flex: 1;
     align-items: center;
     justify-content: center;
-    color: white;
+    color: whitesmoke;
     background-color: #1F2937;
     height: 50px;
     min-height: 50px;
