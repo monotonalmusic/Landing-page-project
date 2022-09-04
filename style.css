@@ -28,8 +28,9 @@ ul {
     padding: 0 150px;
     justify-content: space-between;
     align-items: center;
-    max-height: 72px;
-    height: 72px;
+    max-height: 125px;
+    min-height: 125px;
+    height: 125px;
 }
 
 .header-logo {
@@ -41,14 +42,18 @@ ul {
 
 .block-one {
     display: flex;
-    flex-flow: column wrap;
     background: #1F2937;
     padding: 0 150px;
-    align-items: flex-start;
-    justify-content: space-around;
-    max-height: 150px;
-    height: 150px;
+    max-height: 300px;
+    height: 300px;
+    justify-content: space-between;
     
+}
+
+.block-one-left {
+    display: flex;
+    flex-flow: column ;
+    gap: 50px;
 }
 
 .block-one-header {
@@ -60,16 +65,11 @@ ul {
     color: grey;
 }
 
-.pic {
-    display: flex;
-    margin-left: auto;
-    background-color: grey;
-    height: 125px;
-    width: 400px;
-    justify-content: center;
-    align-items: center;
-
+img {
+    height: 200px;
+    width: auto;
 }
+
 
 button {
     background-color: #3882f6;
@@ -78,6 +78,7 @@ button {
     outline: none;
     border: 2px solid white;
     padding: 5px;
+    width: 70px;
 
 }
 
